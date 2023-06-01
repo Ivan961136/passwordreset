@@ -1,7 +1,7 @@
 defaultpw = 'a123456'
 count = 3
 
-while count <= 3 and count > 0:
+while count > 0:
 	password = input('請輸入密碼：')
 	if password == defaultpw:
 		print('登入成功')
